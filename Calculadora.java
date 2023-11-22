@@ -7,13 +7,13 @@ public class Calculadora {
     }
 
     // Método para subtrair os dois números:
-    // iserido por miguel
 
     public int subtrair(int a, int b) {
         return a - b;
     }
 
     // Método para multiplicar dois números
+    // iserido por miguel
     public int multiplicar(int a, int b) {
         return a * b;
     }
