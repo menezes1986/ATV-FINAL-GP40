@@ -18,6 +18,19 @@ public class Calculadora {
         return a * b;
     }
 
+     // Método para dividir dois números (considere a divisão inteira):
+
+     // Inserido por Maurício Viana 
+
+    public int dividir(int a, int b) {
+        if (b != 0) {
+            return a / b;
+        } else {
+            System.out.println("Erro: Divisão por zero não permitida.");
+            return 0; // Valor padrão em caso de divisão por zero
+        }
+    }
+
     public static void main(String[] args) {
 
         // Exemplo de uso da classe:
@@ -32,6 +45,8 @@ public class Calculadora {
 
         int resultadoMultiplicacao = calculadora.multiplicar(2, 6);
         System.out.println("Resultado da multiplicação: " + resultadoMultiplicacao);
-
+        
+        int resultadoDivisao = calculadora.dividir(12, 3);
+        System.out.println("Resultado da divisão: " + resultadoDivisao);
     }
 }
