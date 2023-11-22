@@ -7,6 +7,7 @@ public class Calculadora {
     }
 
     // Método para subtrair os dois números:
+    // iserido por miguel
 
     public int subtrair(int a, int b) {
         return a - b;
